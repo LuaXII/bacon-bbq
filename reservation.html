@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="icon" href="https://images-ext-1.discordapp.net/external/9Ba8q2HEDau6FCryVrddJUEL-pkVckX5ZTwgh7aKBbM/https/pluspng.com/img-png/bacon-hd-png-bacon-440.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+    <div id="top"></div>
+    <header>
+        <div>
+        <nav>
+            <a id="logo" href="./index.html"><img src="https://images-ext-1.discordapp.net/external/9Ba8q2HEDau6FCryVrddJUEL-pkVckX5ZTwgh7aKBbM/https/pluspng.com/img-png/bacon-hd-png-bacon-440.png" class="logo" alt="bacon logo"></a>
+            <a class="hover-top" href="#">FAQ</a>
+            <a class="hover-top" href="#">Contact us</a>
+        </nav>
+        <h1>BBQ Restaurant</h1>
+        <nav>
+            <a class="hover-top" href="./reservation.html">Reservation</a>
+            <a class="hover-top" href="#">Menu</a>
+        </nav>
+    </div>
+    </header>
+    <div id="form-container">
+        <div id="form">
+            <form action="./Rescomplete.html" method="get">
+            <table>
+                <tr>
+                    <caption>Restaurant Reservation Form</th><br><br>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                </tr>
+                <tr>
+                    <td><input class="hover" type="text" required placeholder="First (Required)" name="first" id="name"></td>
+                    <td><input class="hover" type="text" required placeholder="Last (Required)" name="last" id="name"></td>
+                    <label for="name"></label>
+                </tr>
+                <tr>
+                    <td>Email (Required)</td>
+                    <td>Phone</td>
+                </tr>
+                <tr>
+                    <td><input class="hover" required pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}" name="email" id="creds" type="email"></td>
+                    <td><input class="hover" name="phone" id="creds" type="text"></td>
+                    <label for="creds"></label>
+                </tr>
+                <tr>
+                    <td>Reservation Date</td>
+                    <td>Reservation Time</td>
+                </tr>
+                <tr>
+                    <td><input class="hover" id="time" type="date" name="date"></td>
+                    <td><input class="hover" id="time" type="time" name="time"></td>
+                    <label for="time"></label>
+                </tr>
+                <tr>
+                    <td>How many attendees?</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><select class="hover" required name="attendees" id="attendees">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Notes</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class="hover" id="textarea" type="textarea" placeholder="Write table specifications here... (Optional)"></td>
+                </tr>
+                <tr>
+                    <td><input class="hover" id="send" type="submit" value="Send"></td>
+                </tr>
+            </table>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

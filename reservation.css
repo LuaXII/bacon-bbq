@@ -1,0 +1,39 @@
+#form-container {
+    margin-top: 150px;
+    margin-left: 50px;
+    font-family: cursive, brush script MT;
+    background: rgb(255, 166, 1);
+    max-width: 400px;
+    padding-left: 40px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 4px solid rgb(255, 145, 0);
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.4em
+}
+
+input {
+    width: 170px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+select {
+    min-width: 100px;
+}
+
+.hover:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 black;
+    background: rgb(212, 212, 212);
+}
+
+#textarea {
+    overflow-x: scroll;
+    width: 350px;
+}
